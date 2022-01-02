@@ -16,5 +16,5 @@ variable "DnsHostName" {
 }
 
 variable "region" {
-    default = "sa-east-1"
+    default = "ap-south-1"
 }
