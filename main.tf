@@ -7,6 +7,10 @@ terraform {
   }
 }
 
+provider "aws" {
+    region = var.region
+}
+
 resource "aws_vpc" "NowggVpc" {
     cidr_block = var.VpcCidrBlock
     instance_tenancy = var.InstanceTenancy
