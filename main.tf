@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket = ""
+    bucket = "terraformstatefile-mumbai"
     key = "main"
     region = "ap-south-1"
-    dynamodb_table = ""
+    dynamodb_table = "terraformstatetable"
   }
 }
 
